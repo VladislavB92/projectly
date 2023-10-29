@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Product(models.Model):
-	name = models.CharField(
+	brand = models.CharField(
 		max_length=128,
 		null=False,
 		blank=False,
